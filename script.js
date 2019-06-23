@@ -60,27 +60,21 @@ if(isElectric){
 
 /*let userScore = 90;
 let currentHighScore = 70;
+let needScore = userScore - currentHighScore
 if (userScore > currentHighScore){
-    alert("Congratulations!! Your new high score is 90");
+    alert("Congratulations!! Your new high score is " +  userScore );
 }
 else{
-  alert("Try Again. You just need 20 to win!")
+  alert("Try Again. You just need");
 }*/
 
 // ---------------
 
 // EXAMPLE NO. 7
 
-/*let isEven = true;
-if (isEven){
-    alert("EVEN");
-}
-else{
-    alert("ODD");
-}*/
-
-/*let evenNumber = 6;
-if (evenNumber){
+/*let x = 6;
+let y = x%2
+if (x%2 === 0){
     alert("EVEN");
 }
 else{
@@ -104,44 +98,38 @@ else{
 
 // --------------
 
-// EXAMPLE NO. 9
-/*let isPassed = true;
-let mathScore = 15;
-if(isPassed){
-    alert("passed");
-}
-else{
-    alert("NOT");
-}*/
-// NOT WORKING
-/* let isPassed = true;
- mathScore = 15;
-  compScore = 19;
-engScore = 7;
- if(mathScore > 10) || (compScore < 20) || (engScore < 8){
-     alert(PASSED)
+// EXAMPLE NO. 
 
+/*let mathScore = 11;
+   compScore = 19;
+   engScore = 7;
+ if(mathScore > 10 ||  compScore > 20 || engScore > 8){
+     alert("PASSED");
+
+ }
+
+ else{
+     alert("FAILED");
  }*/
 
 //  -------------
 
 // EXAMPLE NO. 10
-/*let isPassed = true;
-mathScore = 15;
-compScore = 27;
-engScore = 9;
-if(isPassed){
+
+/*let mathScore = 15;
+let compScore = 27;
+let engScore = 9;
+if(mathScore > 10 && compScore > 20 && engScore > 8){
     alert("PASSED");
+
 }
+
 else{
-    alert("NOT");
+    alert("FAILED");
 }*/
 
 // -------------
 
-/*
-
-me eg.no.9 me "OR" eg.no.10 me"AND" lagana charahi hu magar nahi huparaha.*/
 
 
 
